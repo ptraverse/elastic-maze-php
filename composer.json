@@ -1,0 +1,19 @@
+{
+    "name": "ptraverse/elastic-maze",
+    "description": "Solution to http://www.epdeveloperchallenge.com/",
+    "authors": [
+        {
+            "name": "Philippe Traverse",
+            "email": "philippe.traverse@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "3.9.*@dev"
+    },
+    "autoload": {
+        "files": [
+        	"Cell.php",
+        	"Solver.php"
+        ]
+    }
+}

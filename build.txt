@@ -1,0 +1,27 @@
+//get Composer
+curl -sS https://getcomposer.org/installer | php
+
+//initialize composer json file
+touch composer.json
+php composer.phar init
+
+//add guzzle
+php composer.phar require guzzle/guzzle:3.9.*@dev
+
+//Solution...
+ public $note =>
+  string(524) "Congratulations, you have successfully found your way through the Elastic Path blackout maze. Based on your problem solving skills, we would love to talk to you about our software development opportunities in our Vancouver, BC and Reading, United Kingdom offices. Don't be shy, let's chat! Start by applying via the unique link below and include the following phrase:
+Phrase: "In the blackest night, no hidden path shall escape my sight!"
+
+Link: http://tbe.taleo.net/NA1/ats/careers/requisition.jsp?org=EKKON&cw"...
+
+haha... link got cut off... but its very similar to the careers page at 
+http://tbe.taleo.net/CH01/ats/careers/searchResults.jsp?org=EKKON&cws=1
+which invites people to email to  
+http://tbe.taleo.net/NA1/ats/careers/apply.jsp?org=EKKON&cws=1
+
+So its probably 
+http://tbe.taleo.net/NA1/ats/careers/requisition.jsp?org=EKKON&cws=1
+..which leads back to the corporate page.. hah.
+
+And that quote is Green Lantern.
